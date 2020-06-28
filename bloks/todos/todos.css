@@ -1,0 +1,7 @@
+@import "__form/todos__form.css";
+@import "__input/todos__input.css";
+
+.todos {
+	font-family: Inter;
+	flex-grow: 1;
+}

@@ -1,0 +1,62 @@
+@import "vendor/normalize.css";
+@import "bloks/page/page.css";
+@import "bloks/header/header.css";
+@import "bloks/todos/todos.css";
+@import "bloks/button/button.css";
+@import "bloks/button/_type/button_type_submit.css";
+
+todo {
+	font-family: Inter;
+	width: 100%;
+}
+
+.todos__list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.todo {
+	display: flex;
+	align-items: center;
+	padding: 43px;
+	border: 1px solid #6F6F6F;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.todo:last-of-type {
+	margin-bottom: 0;
+}
+
+.todo__text {
+	flex-grow: 1;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 29px;
+	margin: 0;
+	color: #FFF;
+}
+
+.todo__btn {
+	border: none;
+	background-color: transparent;
+	box-shadow: none;
+	box-sizing: border-box;
+	padding: 0;
+	cursor: pointer;
+	outline: none;
+	margin-right: 30px;
+}
+
+.todo__btn:last-of-type {
+	margin-right: 0;
+}
+
+.todo__btn:hover {
+	opacity: .8;
+	transition: opacity linear .2s;
+}
+
+

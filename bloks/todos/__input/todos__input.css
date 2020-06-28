@@ -1,0 +1,12 @@
+.todos__input {
+	flex-grow: 1;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 29px;
+	background: #FFF;
+	border-radius: 5px;
+	padding: 20px;
+	outline: none;
+	border: none;
+}
